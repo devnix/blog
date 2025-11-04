@@ -1,9 +1,9 @@
 {
   "runWizardOnStartup": true,
   "currentTemplate": "standard",
-  "currentTheme": "oxygen",
+  "currentTheme": "solarized",
   "customThemeFile": "custom",
-  "contentOrganization": "file-based",
+  "contentOrganization": "folder-based",
   "themeColors": {
     "mode": "simple",
     "simpleColors": {
@@ -12,10 +12,10 @@
     }
   },
   "siteInfo": {
-    "site": "https://astro-modular.netlify.app",
-    "title": "Astro Modular",
-    "description": "A flexible blog theme designed for Obsidian users.",
-    "author": "David V. Kimball",
+    "site": "https://devnix.dev",
+    "title": "Dev_NIX Blog",
+    "description": "This was never meant to reach production",
+    "author": "Dev_NIX",
     "language": "en",
     "faviconThemeAdaptive": true,
     "defaultOgImageAlt": "Astro Modular logo."
@@ -64,12 +64,12 @@
     "social": [
       {
         "title": "X",
-        "url": "https://x.com/davidvkimball",
+        "url": "https://x.com/_devnix",
         "icon": "x-twitter"
       },
       {
         "title": "GitHub",
-        "url": "https://github.com/davidvkimball",
+        "url": "https://github.com/devnix",
         "icon": "github"
       }
     ]
@@ -157,7 +157,6 @@
   },
   "features": {
     "commandPalette": true,
-    "tableOfContents": true,
     "readingTime": true,
     "linkedMentions": true,
     "linkedMentionsCompact": false,
@@ -169,9 +168,6 @@
     "profilePicture": false,
     "comments": false,
     "featureButton": "mode",
-    "showPostCardCoverImages": "featured-and-posts",
-    "postCardAspectRatio": "og",
-    "customPostCardAspectRatio": "2.5/1",
     "quickActions": {
       "enabled": true,
       "toggleMode": true,
@@ -205,23 +201,23 @@
     "comments": {
       "enabled": false,
       "provider": "giscus",
-      "rawScript": "",
-      "repo": "davidvkimball/astro-modular",
-      "repoId": "R_kgDOPllfKw",
-      "category": "General",
-      "categoryId": "DIC_kwDOPllfK84CvUpx",
+      "rawScript": "<script src=\"https://giscus.app/client.js\"\n        data-repo=\"devnix/blog\"\n        data-repo-id=\"R_kgDOQOJeSg\"\n        data-category=\"Announcements\"\n        data-category-id=\"DIC_kwDOQOJeSs4CxauL\"\n        data-mapping=\"pathname\"\n        data-strict=\"0\"\n        data-reactions-enabled=\"1\"\n        data-emit-metadata=\"0\"\n        data-input-position=\"bottom\"\n        data-theme=\"preferred_color_scheme\"\n        data-lang=\"es\"\n        crossorigin=\"anonymous\"\n        async>\n</script>",
+      "repo": "devnix/blog",
+      "repoId": "R_kgDOQOJeSg",
+      "category": "Announcements",
+      "categoryId": "DIC_kwDOQOJeSs4CxauL",
       "mapping": "pathname",
       "strict": "0",
       "reactions": "1",
       "metadata": "0",
       "inputPosition": "bottom",
       "theme": "preferred_color_scheme",
-      "lang": "en",
+      "lang": "es",
       "loading": "lazy"
     }
   },
   "deployment": {
-    "platform": "netlify"
+    "platform": "github-pages"
   },
   "pluginConfig": {
     "obsidianSettings": {
